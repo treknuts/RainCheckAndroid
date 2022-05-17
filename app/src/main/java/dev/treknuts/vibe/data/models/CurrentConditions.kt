@@ -1,0 +1,32 @@
+package dev.treknuts.vibe.data.models
+
+data class CurrentConditions(
+    val cloudcover: Double,
+    val conditions: String,
+    val datetime: String,
+    val datetimeEpoch: Int,
+    val dew: Double,
+    val feelslike: Double,
+    val humidity: Double,
+    val icon: String,
+    val moonphase: Double,
+    val precip: Int,
+    val precipprob: Any,
+    val preciptype: Any,
+    val pressure: Double,
+    val snow: Int,
+    val snowdepth: Int,
+    val solarenergy: Double,
+    val solarradiation: Int,
+    val stations: List<String>,
+    val sunrise: String,
+    val sunriseEpoch: Int,
+    val sunset: String,
+    val sunsetEpoch: Int,
+    val temp: Double,
+    val uvindex: Int,
+    val visibility: Double,
+    val winddir: Int,
+    val windgust: Any,
+    val windspeed: Double
+)
